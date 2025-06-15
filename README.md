@@ -18,7 +18,7 @@ local copy of this file on the raspberry pi and when it is altered since the las
 At the end of the day, the original schedule is copied over the working copy, ready for a new week. With this method you can change the schedule on the fly - changes will be visible
 in a minute after saving - and allow for small modifications on day-to-day basis (say a doctor’s appointment). If you want the changes to be saved for future schedules, also modify the original schedule.
 
-The schedule is built with a 5 minute interval with an increment minute from midnight-timeline. Minute by minute planning is possible but might ask for a small code change.
+The schedule is built with a 5 minute interval with an increment minute from midnight-timeline. Minute by minute planning is possible, it does require the correct number of minutes since midnight.
 
 The program is written to display a schedule for two children. If you want to alter this, a good look at the css file to have the html formatted properly. The html shows the current
 and a maximum of 6 upcoming tasks along with a appropriate icon. I only provide 1 icon with the program, the icon used when the icon the task is linking to can't be found. 
