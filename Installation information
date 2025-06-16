@@ -1,0 +1,12 @@
+The planning tool is developed to be used in a bash environment with a webserver. For instance a Raspberry pi with the Apache webserver.
+
+1. Create a local user to run the script under
+2. Make the local user a member of the webserver group (usually www-data)
+3. Place the planning tool tarball in the directory where you want to run the script from and untar it
+4. Download your icon set
+5. Make sure your icon set follows a Linux-friendly name scheme. For this I opted to rename the files to use only lower case characters and replace all spaces in the filename by underscores
+6. Place the icon set in the images folder of your web server (for instance /var/www/html/images)
+7. Place the style.css in the homedirectory of your web server (for instance /var/www/html)
+8. Replace all default directory values in the generate.sh script.
+9. Create a daily schedule for every person you want this schedule to work for for every day.
+10. Based on the daily schedules created in step 9, make default schedules for the script to copy over the daily schedule when the day is over. This way you always have a default schedule for that day and ad-hoc changes for that day are overwritten.
