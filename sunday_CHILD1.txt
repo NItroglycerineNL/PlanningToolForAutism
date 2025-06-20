@@ -1,0 +1,251 @@
+# Mark up: <time>;<minutes since midnight>;<icon name>;<activity>;<color>
+# The ";" are important for generating the overviews, therefor the ;
+# Therefor the following characters should not be used for 
+# the activity description:  ; " ' *  ? /  \ 
+# 
+# The schedule below is made with a 5 minute interval, however this is not
+# limiting you to select a specific timeslot, for instance 17:23.
+# If you want to use a specific timeslot, don't forget to calculate the correct value
+# for the minutes since midnight, since that value is used by the program
+# to walk through this schedule. By default the schedule starts at 5 am but that is
+# not limiting you to scheduling activities before 5 am, just make sure to use the
+# correct value for minutes since midnight. If wanted the program can be used for the full 24 hrs a day.
+#
+# The time value is currently in the 24hr format, 12hr is possible as well, the program can work with that.
+# This file will be read every minute by the generating program, so a change to this
+# active file (not the backup standard schedule) will be visible within 2 minutes of saving the change.
+#
+# Colors: R(ed),B(lue),G(reen),Y(ellow),P(urple),W(hite) .
+# If no color is selected, white will be used. Make sure to use capital characters for the colors.
+#
+# Two activity values are important: "Getup" and "Time for bed". These 2 activities are used in the
+# program to turn on and off screens that are compliant with this. Please remember to keep both
+# activities with those set descriptions in the schedule.
+05:00;300;;
+05:05;305;;;
+05:10;310;;;
+05:15;315;;;
+05:20;320;;;
+05:25;325;;;
+05:30;330;;;
+05:35;335;;;
+05:40;340;;;
+05:45;345;;;
+05:50;350;;;
+05:55;355;;;
+06:00;360;;;
+06:05;365;;;
+06:10;370;;;
+06:15;375;;;
+06:20;380;;;
+06:25;385;;;
+06:30;390;;;
+06:35;395;;;
+06:40;400;;;
+06:45;405;;;
+06:50;410;;;
+06:55;415;;;
+07:00;420;;;
+07:05;425;;;
+07:10;430;;;
+07:15;435;;;
+07:20;440;;;
+07:25;445;;;
+07:30;450;;;
+07:35;455;;;
+07:40;460;;;
+07:45;465;;;
+07:50;470;;;
+07:55;475;;;
+08:00;480;wake_up.png;Getup;
+08:05;485;turn_clothes_on.png;Put on clothes;
+08:10;490;bed_make_up.png;Make up your bed and open the window;G
+08:15;495;room_clean_bedroom.png;Puck up the thrash from the floor, bring the dishes downstairs;G
+08:20;500;recreation_time.png;Time for yourself;
+08:25;505;;;
+08:30;510;breakfast.png;Eating breakfast;
+08:35;515;;;
+08:40;520;;;
+08:45;525;;;
+08:50;530;;;
+08:55;535;;;
+09:00;540;;;
+09:05;545;;;
+09:10;550;;;
+09:15;555;;;
+09:20;560;recreation_time.png;Time for yourself;
+09:25;565;;;
+09:30;570;;;
+09:35;575;;;
+09:40;580;;;
+09:45;585;;;
+09:50;590;;;
+09:55;595;;;
+10:00;600;;;
+10:05;605;;;
+10:10;610;;;
+10:15;615;drinken_3.png;Koffie drinken;
+10:20;620;;;
+10:25;625;;;
+10:30;630;;;
+10:35;635;recreation_time.png;Time for yourself;
+10:40;640;;;
+10:45;645;;;
+10:50;650;;;
+10:55;655;;;
+11:00;660;;;
+11:05;665;;;
+11:10;670;;;
+11:15;675;;;
+11:20;680;;;
+11:25;685;;;
+11:30;690;;;
+11:35;695;;;
+11:40;700;;;
+11:45;705;;;
+11:50;710;;;
+11:55;715;;;
+12:00;720;;;
+12:05;725;;;
+12:10;730;;;
+12:15;735;eten_samen.png;Lunch aan tafel;
+12:20;740;;;
+12:25;745;;;
+12:30;750;walk_the_dog.png;Walk the dog;G
+12:35;755;;;
+12:40;760;recreation_time_1.png;Time for yourself, no screen allowed;R
+12:45;765;;;
+12:50;770;;;
+12:55;775;;;
+13:00;780;recreation_time.png;Time for yourself;
+13:05;785;;;
+13:10;790;;;
+13:15;795;;;
+13:20;800;;;
+13:25;805;;;
+13:30;810;;;
+13:35;815;;;
+13:40;820;;;
+13:45;825;;;
+13:50;830;;;
+13:55;835;;;
+14:00;840;target.png;Something to do;P
+14:05;845;;;
+14:10;850;;;
+14:15;855;;;
+14:20;860;;;
+14:25;865;;;
+14:30;870;;;
+14:35;875;;;
+14:40;880;;;
+14:45;885;;;
+14:50;890;;;
+14:55;895;;;
+15:00;900;drinks_and_biscuits.png;Drinking together;
+15:05;905;;;
+15:10;910;;;
+15:15;915;recreation_time.png;Time for yourself;
+15:20;920;;;
+15:25;925;;;
+15:30;930;;;
+15:35;935;;;
+15:40;940;;;
+15:45;945;;;
+15:50;950;;;
+15:55;955;;;
+16:00;960;;;
+16:05;965;;;
+16:10;970;;;
+16:15;975;;;
+16:20;980;;;
+16:25;985;;;
+16:30;990;;;
+16:35;995;;;
+16:40;1000;;;
+16:45;1005;;;
+16:50;1010;;;
+16:55;1015;;;
+17:00;1020;;;
+17:05;1025;;;
+17:10;1030;;;
+17:15;1035;;;
+17:20;1040;;;
+17:25;1045;;;
+17:30;1050;dinner.png;Dinner time;
+17:35;1055;;;
+17:40;1060;;;
+17:45;1065;medication_2.png;Take your medication;
+17:50;1070;;;
+17:55;1075;;;
+18:00;1080;;;
+18:05;1085;;;
+18:10;1090;;;
+18:15;1095;;;
+18:20;1100;;;
+18:25;1105;;;
+18:30;1110;recreation_time.png;Time for yourself;
+18:35;1115;;;
+18:40;1120;;;
+18:45;1125;;;
+18:50;1130;;;
+18:55;1135;;;
+19:00;1140;;;
+19:05;1145;;;
+19:10;1150;;;
+19:15;1155;;;
+19:20;1160;;;
+19:25;1165;;;
+19:30;1170;;;
+19:35;1175;;;
+19:40;1180;;;
+19:45;1185;drinks_and_biscuits.png;Drinking together;
+19:50;1190;;;
+19:55;1195;;;
+20:00;1200;;;
+20:05;1205;;;
+20:10;1210;;;
+20:15;1215;;;
+20:20;1220;;;
+20:25;1225;;;
+20:30;1230;recreation_time_1.png;Time for yourself, no screen allowed;R
+20:35;1235;;;
+20:40;1240;;;
+20:45;1245;;;
+20:50;1250;;;
+20:55;1250;brush_your_teeth.png;Btush your teeth;
+21:00;1260;book.png;Read a bookj;
+21:05;1265;;;
+21:10;1270;;;
+21:15;1275;sleep.png;Time for bed;
+21:20;1280;;;
+21:25;1285;;;
+21:30;1290;;;
+21:35;1295;;;
+21:40;1300;;;
+21:45;1305;;;
+21:50;1310;;;
+22:55;1315;;;
+22:00;1320;;;
+22:05;1325;;;
+22:10;1330;;;
+22:15;1335;;;
+22:20;1340;;;
+22:25;1345;;;
+22:30;1350;;;
+22:35;1355;;;
+22:40;1360;;;
+22:45;1365;;;
+22:50;1370;;;
+22:55;1375;;;
+23:00;1380;;;
+23:05;1385;;;
+23:10;1390;;;
+23:15;1395;;;
+23:20;1400;;;
+23:25;1405;;;
+23:30;1410;;;
+23:35;1415;;;
+23:40;1420;;;
+23:45;1425;;;
+23:50;1430;;;
+23:55;1435;;;

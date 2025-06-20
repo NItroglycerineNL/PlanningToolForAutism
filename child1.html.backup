@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>Planner</title>
+</head>
+
+<body>
+	<!-- Current time -->
+	<aside>
+		<p>
+                        It is now CURDAY, CURTIME.
+		</p>
+	</aside>
+	<!-- Planning container -->
+	<main class="planning-container">
+		<!-- Individual planning -->
+		<section class="planning">
+			<h1>Planning for CHILD1</h1>
+			<ol class="planning-items">
+                                <li class="planning-item">
+                                        <time datetime="" class="planning-item-time" style="color:C101">CHILD1TIME1</time>
+                                        <img src="images/CHILD1PICTO1" alt="CHILD1DESC1">
+                                        <p class="planning-item-description" style="color:C101">CHILD1DESC1</p>
+                                </li>
+                                <li class="planning-item">
+                                        <time datetime="" class="planning-item-time" style="color:C102">CHILD1TIME2</time>
+                                        <img src="images/CHILD1PICTO2" alt="CHILD1DESC2">
+                                        <p class="planning-item-description" style="color:C102">CHILD1DESC2</p>
+                                </li>
+                                <li class="planning-item">
+                                        <time datetime="" class="planning-item-time" style="color:C103">CHILD1TIME3</time>
+                                        <img src="images/CHILD1PICTO3" alt="CHILD1DESC3">
+                                        <p class="planning-item-description" style="color:C103">CHILD1DESC3</p>
+                                </li>
+                                <li class="planning-item">
+                                        <time datetime="" class="planning-item-time" style="color:C104">CHILD1TIME4</time>
+                                        <img src="images/CHILD1PICTO4" alt="CHILD1DESC4">
+                                        <p class="planning-item-description" style="color:C104">CHILD1DESC4</p>
+                                </li>
+                                <li class="planning-item">
+                                        <time datetime="" class="planning-item-time" style="color:C105">CHILD1TIME5</time>
+                                        <img src="images/CHILD1PICTO5" alt="CHILD1DESC5">
+                                        <p class="planning-item-description" style="color:C105">CHILD1DESC5</p>
+                                </li>
+                                <li class="planning-item">
+                                        <time datetime="" class="planning-item-time" style="color:C106">CHILD1TIME6</time>
+                                        <img src="images/CHILD1PICTO6" alt="CHILD1DESC6">
+                                        <p class="planning-item-description" style="color:C106">CHILD1DESC6</p>
+                                </li>
+                                <li class="planning-item">
+                                        <time datetime="" class="planning-item-time" style="color:C107">CHILD1TIME7</time>
+                                        <img src="images/CHILD1PICTO7" alt="CHILD1DESC7">
+                                        <p class="planning-item-description" style="color:C107">CHILD1DESC7</p>
+                                </li>
+			</ol>
+		</section>
+	</main>
+</body>
+
+</html>
